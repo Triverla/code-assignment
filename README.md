@@ -18,6 +18,8 @@ node solution.js
 4. Follow the prompts displayed in the terminal to provide input as required by the solution.
 5. Once the solution has finished executing, review the output displayed in the terminal.
 
+[Watch Solution Video](solution-videos/problem-1-solution.mov)
+
 
 ### Problem 2
 To run the solution for Problem 2, follow these steps:
@@ -33,3 +35,5 @@ node solution.js
 ```
 This executes the script and creates an ``output.txt`` file in the problem 2 directory. \
 This file contains the result of the solution.
+
+[Watch Solution Video](solution-videos/problem-2-solution.mov)
