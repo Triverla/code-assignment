@@ -58,8 +58,8 @@ rl.on('close', () => {
     jobs.sort((a, b) => a.endTime - b.endTime);
     const results = calculateMaximunProfit(jobs);
     console.log('The number of tasks and earnings available for others');
-    console.log(`Task: ${jobs.length - results.selectedJobs}`);
-    console.log(`Earnings: ${results.remainingEarnings}`);
+    console.log(`Task: ${jobs.length - results[0]}`);
+    console.log(`Earnings: ${results[1]}`);
 });
 
 function calculateMaximunProfit(jobs) {
@@ -98,10 +98,10 @@ function calculateMaximunProfit(jobs) {
         if (profitTrack <= 0) break;
     }
 
-    return {
+    return [
         selectedJobs,
         remainingEarnings,
-    };
+    ];
 }
 
 promptForJobs();
