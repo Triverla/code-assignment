@@ -26,7 +26,8 @@ To run the solution for Problem 2, follow these steps:
 ```bash
 cd problem-2
 ```
-3. Run the solution script using Node.js by entering the following command:
+3. Import or create your input file to the problem-2 directory. File should be named ``input.txt``
+4. Run the solution script using Node.js by entering the following command:
 ```bash
 node solution.js
 ```
